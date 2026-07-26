@@ -1,0 +1,47 @@
+///
+/// Page Hero
+/// Full-width title banner used at the top of non-home pages. Transparent —
+/// shows the site-wide background image/texture from layout/_wrapper.scss
+/// through it, same as #intro does on the homepage.
+///
+
+	.page-hero {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 80vh;
+		padding: 4rem 2rem;
+		text-align: center;
+
+		h1 {
+			color: #ffffff;
+			font-size: 3rem;
+			margin: 0;
+		}
+
+		@include breakpoint('<=small') {
+			min-height: 60vh;
+			padding: 2rem;
+
+			h1 {
+				font-size: 2.25rem;
+			}
+		}
+
+		// #header reserves a large height so it can nest inside #intro on the
+		// homepage (see layout/_intro.scss); that doesn't apply here. Instead we
+		// pull it (and #nav, which pulls itself up further, see layout/_nav.scss)
+		// up by #nav's own height so #nav overlaps the bottom of the hero photo
+		// and gets the same "glassy" translucent look it has on the homepage,
+		// rather than sitting on solid navy. The logo/name is hidden here since
+		// the page-hero title already identifies the page.
+		& + #header {
+			height: auto;
+			padding: 0 0 3rem 0;
+			margin-top: -3rem;
+
+			.logo {
+				display: none;
+			}
+		}
+	}
