@@ -3414,20 +3414,6 @@ input, select, textarea {
 			display: none;
 		}
 
-/* Resume Embed (resume.html) — live Google Doc, see HOW_TO_EDIT.txt */
-
-	.resume-embed {
-		margin: 0 0 2rem 0;
-	}
-
-		.resume-embed iframe {
-			display: block;
-			width: 100%;
-			height: 85vh;
-			min-height: 600px;
-			border: 0;
-		}
-
 			#intro + #header .logo {
 				-moz-transform: translateY(2rem);
 				-webkit-transform: translateY(2rem);
