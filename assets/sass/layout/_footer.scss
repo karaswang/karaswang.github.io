@@ -18,10 +18,10 @@
 		max-width: _size(wrapper);
 		z-index: 2;
 
-		// Match the contact form's labels/button (bold, uppercase,
-		// letter-spaced Source Sans Pro) so "Location"/"Email"/"Social"
-		// aren't visually a completely different font from the form
-		// beside them.
+		// Match the other headings sitewide (bold, uppercase,
+		// letter-spaced Roboto) so "Location"/"Email"/"Social"
+		// aren't visually a completely different font from the rest
+		// of the page.
 		h3 {
 			font-family: _font(family-heading);
 			font-weight: _font(weight-heading);

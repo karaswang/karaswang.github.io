@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Nunito:300,700,300italic,700italic|Roboto:700,900,700italic,900italic|Source+Sans+Pro:900");
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,700,900,300italic,700italic|Roboto:700,900,700italic,900italic");
 
 /*
 	Massively by HTML5 UP
@@ -2067,7 +2067,7 @@ input, select, textarea {
 		border-radius: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Nunito", Helvetica, Arial, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -2302,7 +2302,7 @@ input, select, textarea {
 
 	label {
 		display: block;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Nunito", Helvetica, Arial, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -3012,7 +3012,7 @@ input, select, textarea {
 		}
 
 		table th {
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Roboto", Helvetica, Arial, sans-serif;
 			font-size: 0.8rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
@@ -3112,7 +3112,7 @@ input, select, textarea {
 			transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 			border: solid 2px;
 			display: inline-block;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Nunito", Helvetica, Arial, sans-serif;
 			font-size: 0.8rem;
 			font-weight: 900;
 			height: 3rem;
@@ -3561,7 +3561,7 @@ input, select, textarea {
 			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 			pointer-events: auto;
 			border: 0;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Roboto", Helvetica, Arial, sans-serif;
 			font-size: 3.25rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
@@ -3684,7 +3684,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Nunito", Helvetica, Arial, sans-serif;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			list-style: none;
@@ -3992,7 +3992,7 @@ input, select, textarea {
 		}
 
 		#footer h3 {
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Roboto", Helvetica, Arial, sans-serif;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			text-transform: uppercase;
@@ -4400,7 +4400,7 @@ input, select, textarea {
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Nunito", Helvetica, Arial, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -4510,7 +4510,7 @@ input, select, textarea {
 		right: 0.75rem;
 		border: 0;
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Nunito", Helvetica, Arial, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -4602,7 +4602,7 @@ input, select, textarea {
 				#navPanel .links li a {
 					border-bottom: 0;
 					display: block;
-					font-family: "Source Sans Pro", Helvetica, sans-serif;
+					font-family: "Nunito", Helvetica, Arial, sans-serif;
 					font-size: 0.9rem;
 					font-size: 0.9rem;
 					font-weight: 900;
