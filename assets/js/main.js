@@ -249,3 +249,12 @@
 		}
 
 })(jQuery);
+
+// Contact form "sent" confirmation banner (shown after FormSubmit.co
+// redirects back here with ?sent=1).
+(function () {
+	if (window.location.search.indexOf('sent=1') !== -1) {
+		var notice = document.getElementById('contact-sent-notice');
+		if (notice) notice.style.display = 'block';
+	}
+})();
