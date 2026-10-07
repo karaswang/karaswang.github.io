@@ -4229,6 +4229,38 @@ input, select, textarea {
 				border-left: 0;
 			}
 
+			#footer > section:only-child {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				-moz-align-items: center;
+				-webkit-align-items: center;
+				-ms-align-items: center;
+				align-items: center;
+			}
+
+				#footer > section:only-child > header,
+				#footer > section:only-child > p,
+				#footer > section:only-child > form {
+					width: 100%;
+					max-width: 32rem;
+				}
+
+				#footer > section:only-child > header {
+					text-align: center;
+					margin: 0 0 2rem 0;
+					max-width: 44rem;
+				}
+
+					#footer > section:only-child > header p {
+						font-size: 0.95rem;
+					}
+
 			#footer > section.split {
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -4238,6 +4270,10 @@ input, select, textarea {
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
+				-moz-justify-content: center;
+				-webkit-justify-content: center;
+				-ms-justify-content: center;
+				justify-content: center;
 				padding: 0;
 			}
 
@@ -4264,7 +4300,7 @@ input, select, textarea {
 					-webkit-align-items: center;
 					-ms-align-items: center;
 					align-items: center;
-					padding: 3.15rem 4rem;
+					padding: 1.4rem 4rem;
 				}
 
 					#footer > section.split.contact > section > * {
@@ -4295,11 +4331,11 @@ input, select, textarea {
 					}
 
 					#footer > section.split.contact > section:first-child {
-						padding: 4rem 4rem 3rem 4rem;
+						padding: 1.4rem 4rem 0.7rem 4rem;
 					}
 
 					#footer > section.split.contact > section:last-child {
-						padding: 3rem 4rem 4rem 4rem;
+						padding: 0.7rem 4rem 1.4rem 4rem;
 					}
 
 					#footer > section.split.contact > section.alt {
@@ -4311,6 +4347,37 @@ input, select, textarea {
 
 						#footer > section.split.contact > section.alt > :last-child {
 							margin-top: -0.325rem;
+						}
+
+					#footer > section.split.contact > section.message {
+						-moz-justify-content: center;
+						-webkit-justify-content: center;
+						-ms-justify-content: center;
+						justify-content: center;
+						text-align: center;
+						padding: 2rem 4rem;
+					}
+
+						#footer > section.split.contact > section.message > :first-child,
+						#footer > section.split.contact > section.message > :last-child {
+							width: auto;
+							-moz-flex-shrink: 1;
+							-webkit-flex-shrink: 1;
+							-ms-flex-shrink: 1;
+							flex-shrink: 1;
+							-moz-flex-grow: 1;
+							-webkit-flex-grow: 1;
+							-ms-flex-grow: 1;
+							flex-grow: 1;
+						}
+
+						#footer > section.split.contact > section.message p {
+							font-size: 1rem;
+							line-height: 1.8;
+						}
+
+						#footer > section.split.contact > section.message a {
+							font-weight: 600;
 						}
 
 		#footer form label,
